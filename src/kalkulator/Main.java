@@ -16,6 +16,8 @@ public class Main {
 		do {
 			
 			s = skener.nextLine();
+			if(s.isEmpty())
+				continue;
 			
 		} while(!s.equals("kraj"));
 

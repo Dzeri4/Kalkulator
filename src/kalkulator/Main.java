@@ -9,6 +9,7 @@ public class Main {
 		
 		Scanner skener;
 		String s;
+		String[] pars;
 		
 		skener = new Scanner(System.in);
 		
@@ -17,6 +18,11 @@ public class Main {
 			
 			s = skener.nextLine();
 			if(s.isEmpty())
+				continue;
+			
+			pars = s.split(" ");
+			
+			if(pars.length != 3)
 				continue;
 			
 		} while(!s.equals("kraj"));

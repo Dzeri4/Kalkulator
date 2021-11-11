@@ -38,6 +38,9 @@ public class Main {
 
 			if(pars[1].equals("-")) 
 				substraction(x,y);
+			
+			if(pars[1].equals("*")) 
+				multiplication(x,y);
 
 			if(pars[1].equals("*")) {
 				//TODO
@@ -55,6 +58,10 @@ public class Main {
 
 	public static void substraction(int x, int y) {
 		System.out.println(x-y);
+	}
+	
+	public static void multiplication(int x, int y) {
+		System.out.println(x*y);
 	}
 	
 }	

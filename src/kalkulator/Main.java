@@ -33,8 +33,8 @@ public class Main {
 			x = Integer.parseInt(pars[0]);
 			y = Integer.parseInt(pars[2]);
 			
-			if(pars[1].equals("+")) {
-				System.out.println(x+y);
+			if(pars[1].equals("-")) {
+				substraction(x,y);
 			}
 			
 			
@@ -42,4 +42,9 @@ public class Main {
 
 		
 	}
+	
+	public static void substraction(int x, int y) {
+		System.out.println(x-y);
+	}
+	
 }

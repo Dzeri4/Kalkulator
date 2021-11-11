@@ -41,10 +41,6 @@ public class Main {
 			
 			if(pars[1].equals("*")) 
 				multiplication(x,y);
-
-			if(pars[1].equals("*")) {
-				//TODO
-			}
 			
 		} while(!s.equals("kraj"));
 
